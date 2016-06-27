@@ -42,7 +42,7 @@ pip3 install -U jupyter
 Install the IRkernel binary in R.  More info [here](https://irkernel.github.io/installation/).
 
 ```r
-install.packages(c('repr', 'pbdZMQ', 'devtools'))
+install.packages(c('repr', 'pbdZMQ', 'devtools'), repos = c(CRAN = "https://cran.rstudio.com"))
 library(devtools)
 devtools::install_github('IRkernel/IRdisplay')
 devtools::install_github('IRkernel/IRkernel')
