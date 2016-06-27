@@ -41,6 +41,15 @@ pip3 install -U jupyter
 
 Install the IRkernel binary in R.  More info [here](https://irkernel.github.io/installation/).
 
+Note that `pip` or `pip3` may have installed Jupyter to a local directory which you
+need to make visible to R. One option is to adjust `PATH` before calling `R`:
+
+```sh
+PATH="~/.local/bin/:$PATH" R
+```
+
+With R started that way, run these commands:
+
 ```r
 install.packages(c('repr', 'pbdZMQ', 'devtools'))
 library(devtools)
