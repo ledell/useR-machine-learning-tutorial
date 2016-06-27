@@ -1,6 +1,6 @@
 # useR! Machine Learning Tutorial
 
-![Alt text](./images/user2016.png "UseR 2015")
+![UseR 2016](./images/user2016.png "UseR 2016")
 
 useR! 2016 Tutorial: [Machine Learning Algorithmic Deep Dive](http://user2016.org/tutorials/10.html)
 
