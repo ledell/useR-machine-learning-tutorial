@@ -27,7 +27,7 @@ Here are some practical, related topics we will cover for each algorithm:
 - Software
 - Scalability
 
-Instructions for how to install the neccessary software for this tutorial is available [here](tutorial-installation.md).
+Instructions for how to install the neccessary software for this tutorial is available [here](tutorial-installation.md).  Data for the tutorial can be downloaded by running `./data/get-data.sh`.
 
 ## Dimensionality Issues
 Certain algorithms don't scale well when there are millions of features.  For example, decision trees require computing some sort of metric (to determine the splits) on all the feature values (or some fraction of the values as in Random Forest and Stochastic GBM).  Therefore, computation time is linear in the number of features.  Other algorithms, such as GLM, scale much better to high-dimensional (n << p) and wide data with appropriate regularization (e.g. Lasso, Elastic Net, Ridge).
