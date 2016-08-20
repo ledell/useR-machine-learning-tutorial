@@ -1,6 +1,6 @@
 # Tutorial Software Prerequisites
 
-This tutorial uses [Jupyter notebooks](http://jupyter.readthedocs.io/en/latest/index.html) with the [R kernel](https://irkernel.github.io/).  If you are using Anaconda Python, you already have [Jupyter intalled](http://jupyter.readthedocs.io/en/latest/install.html).  For non-[Anaconda](https://www.continuum.io/downloads) users, you can optionally install Python via Homebrew and then install Jupyter via pip.
+This tutorial uses [Jupyter notebooks](http://jupyter.readthedocs.io/en/latest/index.html) with the [R kernel](https://irkernel.github.io/).  If you are using Anaconda Python, you already have [Jupyter intalled](http://jupyter.readthedocs.io/en/latest/install.html).  For non-[Anaconda](https://www.continuum.io/downloads) users, you can optionally install Python via Homebrew and then install Jupyter via `pip`.
 
 ![Alt text](./images/jupyter_rkernel.png "IRkernel")
 
