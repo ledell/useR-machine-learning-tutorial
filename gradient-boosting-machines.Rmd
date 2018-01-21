@@ -179,8 +179,7 @@ Backend: C++
 The [gbm](https://github.com/gbm-developers/gbm) R package is an implementation
 of extensions to Freund and Schapire's AdaBoost algorithm and Friedman's
 gradient boosting machine.  This is the original R implementation of GBM. A
-presentation is available [here](http://www.slideshare.net/mark_landry/gbm-
-package-in-r) by Mark Landry.
+presentation is available [here](https://www.slideshare.net/mark_landry/gbm-package-in-r) by Mark Landry.
 
 Features:
 - Stochastic GBM.
