@@ -1,5 +1,5 @@
 ---
-title: "Classification and Regression Trees"
+title: "Stacking"
 output: html_document
 ---
 
